@@ -18,7 +18,7 @@
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Lk4g0oTJvZEIo2jpxFW-2" target="2Lk4g0oTJvZEIo2jpxFW-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-2" value="remove imojis and urls" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-2" value="preprocess (remove emojies/spaces and urls)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Lk4g0oTJvZEIo2jpxFW-4" target="2Lk4g0oTJvZEIo2jpxFW-8">
@@ -27,14 +27,26 @@
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-4" value="dedup" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-7" value="post/transation with embedding" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="800" y="80" width="90" height="90" as="geometry" />
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Lk4g0oTJvZEIo2jpxFW-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="895" y="220" />
+              <mxPoint x="81" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-7" value="&lt;span style=&quot;color: rgb(28, 33, 39); font-family: Source-Sans-Pro, Helvetica, sans-serif, blueprint-icons-16; font-size: 14px; text-align: start; text-wrap-mode: nowrap; background-color: rgb(246, 247, 249);&quot;&gt;posts_with_arabic_and&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(28, 33, 39); font-family: Source-Sans-Pro, Helvetica, sans-serif, blueprint-icons-16; font-size: 14px; text-align: start; text-wrap-mode: nowrap; background-color: rgb(246, 247, 249);&quot;&gt;_english_embeddings&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="810" y="90" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-8" value="embedding&amp;nbsp;&lt;div&gt;(orig lang)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="2Lk4g0oTJvZEIo2jpxFW-8" target="2Lk4g0oTJvZEIo2jpxFW-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-14" value="create_input_pipeline" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
