@@ -45,8 +45,14 @@
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-16" value="by arena embeddinbg (e.g. gaza)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="170" y="380" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Lk4g0oTJvZEIo2jpxFW-17" target="2Lk4g0oTJvZEIo2jpxFW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-17" value="bertopic (fixed parameters by arena)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-19" value="topic naming" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
