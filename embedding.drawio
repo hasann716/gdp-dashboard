@@ -39,6 +39,15 @@
         <mxCell id="2Lk4g0oTJvZEIo2jpxFW-14" value="create_input_pipeline" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="30" y="110" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Lk4g0oTJvZEIo2jpxFW-16" target="2Lk4g0oTJvZEIo2jpxFW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-16" value="by arena embeddinbg (e.g. gaza)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Lk4g0oTJvZEIo2jpxFW-17" value="bertopic (fixed parameters by arena)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
